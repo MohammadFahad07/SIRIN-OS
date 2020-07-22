@@ -1,0 +1,17 @@
+Part_1: 
+git clone "clone your repo"
+git init
+git config --global user.name "your username"
+git remote -v 
+git remote add main (add master repo)
+
+Part_2:
+git pull -f main master // update everything from master 
+
+Part_3: // it will update new added file in your repo
+git add .
+git commit -m "message"
+git push -f origin master 
+
+
+ 
